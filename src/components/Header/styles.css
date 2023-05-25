@@ -1,0 +1,29 @@
+.header-container {
+	height: 80px;
+	width: 100%;
+	background-color: var(--white);
+	box-shadow: 2px 3px 6px #c1c1c1;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 0.5rem 2rem;
+}
+
+.trademark-correios img {
+	max-width: 150px;
+}
+
+.right-buttons {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 1rem;
+	font-size: 1.4em;
+	color: var(--blue);
+}
+
+.login-button,
+.search-button {
+	cursor: pointer;
+	transition: 0.5s;
+}

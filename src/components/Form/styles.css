@@ -1,0 +1,21 @@
+.form-container {
+	max-width: 80%;
+}
+
+.form-title h2 {
+	color: var(--blue);
+	margin-bottom: 1rem;
+}
+
+.form-row {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	gap: 1rem;
+}
+
+@media (max-width: 395px) {
+	.form-container {
+		max-width: 95%;
+	}
+}
